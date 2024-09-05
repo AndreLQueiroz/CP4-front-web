@@ -1,13 +1,17 @@
+import { HomeStyle } from "../css/HomeStyle"
+
 const Home=()=>{
-    return(
-        <>
-    <div>
-        <h1>Home</h1>
-        <h2>Olá bem vindo ao nosso site!</h2>
+    return (
+
+        <HomeStyle>
+
+        <section className="home">
+
+            <h1>VENHA TREINAR CONOSCO!!!</h1>
+
+        </section>
+        </HomeStyle>
        
-    </div>
-    
-        </>
     )
 }
 export default Home

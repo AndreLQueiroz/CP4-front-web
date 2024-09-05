@@ -1,6 +1,8 @@
 import {Link, NavLink} from 'react-router-dom'
 
 import React, {useState} from 'react';
+import { NavStyle } from '../css/NavStyle';
+
 
 const Nav=()=>{
     const [menuOpen, setMenuOpen] = useState(false)
@@ -8,7 +10,8 @@ const Nav=()=>{
     
     
     return(
-        <>
+
+        <NavStyle>
     <nav>
         <li><Link to='/' className='title'>
         Home</Link></li>
@@ -26,7 +29,7 @@ const Nav=()=>{
         <li><NavLink to='/Sobre'>Sobre</NavLink></li>
        </ul>
     </nav>
-        </>
+        </NavStyle>
     
 
     );

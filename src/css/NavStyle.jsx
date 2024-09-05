@@ -1,3 +1,9 @@
+import styled from "styled-components";
+
+export const NavStyle =styled.section `
+
+
+
 .active {
     background-color:#1d4ed8;
 }
@@ -84,3 +90,4 @@ nav .menu span {
         margin: 0.2rem 0.5rem;
     }
 }
+    `
