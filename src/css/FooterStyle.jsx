@@ -7,7 +7,9 @@ export const FooterStyle =styled.section `
     align-items:center;
     display:flex;
     background:#0f172a ;
-    color:white
+    color:white;
+    font-size: 30px;
+    
 
 }
 
